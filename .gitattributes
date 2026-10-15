@@ -1,0 +1,11 @@
+# Finais de linha: o projeto roda em Windows e Linux, e os scripts precisam
+# chegar iguais nos dois. Sem isto o Git converte tudo para CRLF no Windows.
+* text=auto eol=lf
+
+# Binarios: nunca normalizar
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.wav binary
+*.eps binary
+*.exe binary
